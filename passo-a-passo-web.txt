@@ -22,3 +22,16 @@ se eu colocar tipo
 
 pra deixar a ordem das classes do tailwind em ordem
 npm i prettier-plugin-tailwindcss -D
+
+
+---------------- A PARTIR DAQUI - AULA 2 ----------------
+
+da pra importar fontes do google sem precisar instalar nada com
+import { nome_da_fonte } from 'next/font/google';
+
+pra funcionar com tailwind:
+ao criar a fonte com:   
+const roboto = Roboto_Flex({ subsets: ['latin'], variable: '--font-roboto' })
+o 'variable' vai criar a variavel css pra funcionar com tailwind
+
+
