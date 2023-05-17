@@ -34,4 +34,11 @@ ao criar a fonte com:
 const roboto = Roboto_Flex({ subsets: ['latin'], variable: '--font-roboto' })
 o 'variable' vai criar a variavel css pra funcionar com tailwind
 
+e depois add o font-family no tailwind.config.js:
+fontFamily: {
+    sans: 'var(--font-roboto)',
+    alt: 'var(--font-jam-juree)',
+}
 
+no layout.tsx é necessário fazer uma alteração:
+linha 19 colocar assim: <body className={`${roboto.variable} ${baiJamjuree.variable} font-sans`}>
