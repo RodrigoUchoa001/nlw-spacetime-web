@@ -1,0 +1,24 @@
+remover:
+README
+tudo q ta dentro do public
+dentro do src/app:
+    remover 
+        favico
+dentro do globals.css
+    remover tudo deixar só os bagui com @
+dentro do page.tsx
+    remover tudo dentro do return
+
+DETALHE SOBRE O NEXT.js
+dentro da pasta src/app
+se eu colocar uma pasta com um arquivo page.tsx vai ser criado automaticamente uma rota com o nome da pasta
+por ex:
+    se eu criar app/ignite/page.tsx
+    vai poder ser acessada em "localhost:3000/ignite"
+
+se eu colocar tipo
+    se eu criar app/ignite/depoimentos/page.tsx
+    vai poder ser acessada em "localhost:3000/ignite/depoimentos"
+
+pra deixar a ordem das classes do tailwind em ordem
+npm i prettier-plugin-tailwindcss -D
