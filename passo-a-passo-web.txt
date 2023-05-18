@@ -45,3 +45,6 @@ linha 19 colocar assim: <body className={`${roboto.variable} ${baiJamjuree.varia
 
 pacote de icones
 npm i lucide-react
+
+DETALHE:
+{' '} serve pra ter um espaço pq quando quebra a linha os txts ficam colados
