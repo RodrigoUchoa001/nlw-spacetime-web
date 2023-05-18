@@ -42,3 +42,6 @@ fontFamily: {
 
 no layout.tsx é necessário fazer uma alteração:
 linha 19 colocar assim: <body className={`${roboto.variable} ${baiJamjuree.variable} font-sans`}>
+
+pacote de icones
+npm i lucide-react
