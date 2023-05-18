@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    /* melhora as fontes */
+    -webkit-font-smothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
