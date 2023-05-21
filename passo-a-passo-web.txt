@@ -48,3 +48,6 @@ npm i lucide-react
 
 DETALHE:
 {' '} serve pra ter um espaço pq quando quebra a linha os txts ficam colados
+
+PRA TIRAR AS INFO Q ESTÃO DENTRO DO TOKEN
+npm i jwt-decode
