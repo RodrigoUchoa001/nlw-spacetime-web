@@ -51,3 +51,8 @@ DETALHE:
 
 PRA TIRAR AS INFO Q ESTÃO DENTRO DO TOKEN
 npm i jwt-decode
+
+---------------- A PARTIR DAQUI - AULA 4 ----------------
+PRA INSTALAR PACOTE DE FORMULARIO DO tailwind
+esse pacote substitui os elementos de form padrões do html para q seja possivel estilizar
+npm install -D @tailwindcss/forms
