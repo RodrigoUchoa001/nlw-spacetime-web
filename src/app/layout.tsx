@@ -43,7 +43,7 @@ export default function RootLayout({
 
       {/* direita */}
       <div className="flex flex-col p-16 bg-[url(../assets/bg-stars.svg)] bg-cover">
-        {children}
+        {children} {/* aqui, cada rota q a gente entrar o conteudo dela vai aparecer no lugar desse children, assim, todo o conteudo do layout.tsx se repete em todas as paginas */}
       </div>
     </main>
       </body>
